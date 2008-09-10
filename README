@@ -1,3 +1,15 @@
+This library includes two features: writetem, a C library for parsing and
+processing text templates, and wtstream, a C library for providing a
+destination-agnostic stream-writing wrapper.
+
+The writetem system eventually fell out of favor, with the more powerful
+"templates" library (available in this same site) becoming preferred.
+
+Neither of these libraries is really recommended for general use. They are
+only being made available so that interested parties may build older systems
+that depend on these libraries (such as the Non-Player Character generator for
+D&D, also available from this site).
+
 BUILDING
 --------
 
